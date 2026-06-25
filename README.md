@@ -40,7 +40,7 @@ Dieses Projekt entstand als Webentwicklungsprojekt mit dem Ziel, eine moderne Re
 
 ### Find Us
 
-![Find Us](screenshots/find us.png)
+![Find Us](screenshots/find-us.png)
 
 ## 👩‍💻 Entwickelt von
 
