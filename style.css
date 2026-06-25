@@ -1,0 +1,752 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+
+}
+
+.icon_logo {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1440px;
+    
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Img/hero.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+   
+    
+}
+
+.header h1 {
+    font-size: 96px;
+    font-weight: bold;
+    text-align: center;
+    h1{ 
+        font-size: 60px;
+
+    }
+}
+
+.header p {
+    font-size: 24px;
+}
+
+.navi-main {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  
+    
+}
+
+
+.navlink, .navphone {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+  
+}
+
+.navlink:hover, .navphone:hover {
+    color: #a0a0a0;
+    zoom: 1;
+}
+
+.navphone {
+    background-color: #9F0908;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 10px 20px;
+
+}
+
+.phone-img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+  .how-to-order-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: normal;
+        padding-top: 120px;
+        max-width: 1440px;
+        margin: 0 auto;
+      }
+      
+  
+    .ico-container {
+        padding-top: 0;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 160px;
+        margin-right: 160px;
+        margin-top: 64px;
+        }
+        .h4-container {
+          
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 64px;
+           
+              }
+            .raleway {
+                font-family: raleway;
+                font-size: 80px;
+                font-weight: bold;
+                color: #9F0908;
+                display: flex;
+                justify-content: center;
+                margin-top: 120px;
+                max-width: 1440px;
+                text-align: center;
+                    .h1{ 
+                        font-size: 60px;
+                        
+                    }
+
+                }
+
+
+.img-how-to-order {
+    width: 128px;
+    height: 128px;
+  }
+
+.order-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 64px;
+    padding-bottom: 120px;
+  }
+        
+
+
+ .h3{
+    
+        font-family: "Economica", sans-serif;
+        font-size: 56px;
+        font-weight: bold;
+        color: #000000;
+        margin-top: 16px;
+      }
+
+ 
+
+.h2{
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  color: #9f0908;
+  text-align: center;
+  white-space: nowrap;
+
+}  
+
+.pick{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    font-family: "Economica", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    max-width: 1440px;
+}
+
+
+.ourmenu-headline{
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #9f0908;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    margin-bottom: 64px;
+
+}
+
+.icon-container{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.our-menu-container {
+    background-image: url(./img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-size: cover;
+  }
+
+  .dishes-img {
+    width: 352px;
+    height: 352px;
+  }
+
+  table {
+    font-size: 32px;
+    font-weight: bold;
+    color: #675e54;
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  td:first-child {
+    padding-right: 40px;
+  }
+
+  .dishes-tonkotsu-ramen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 80px;
+    margin-top: 64px;
+  }
+
+  .dishes-miso-ramen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 80px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+
+  .dishes-shio-ramen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 80px;
+  }
+.menu{
+    align-items: center;
+display: flex;
+
+background-image: url(./Img/section_our_menu_bg.jpg);
+background-size: cover;
+margin-top: 120px;
+
+}
+
+.tonka{
+
+display: flex;
+flex-direction: row;
+display: flex;
+justify-content: center;
+
+}
+
+.ramen-img2{
+width: 352px;
+height: 352px;
+margin-bottom: 56px;
+gap: 80px;
+
+}
+
+.ramen-img1{
+    width: 352px;
+    height: 352px;
+    margin-bottom: 56px;
+    gap: 80px;
+
+}
+.table{
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 32px;
+color: #675E54;  
+margin-top: 16px;
+row-gap: 8px;
+font-weight: bold;
+color: #675e54;
+margin-top: 16px;
+width: 100%;
+}
+
+.spicy{
+
+display: flex;
+flex-direction: row-reverse;
+
+display: flex;
+justify-content: center;
+
+
+}
+.shio{
+display: flex;
+flex-direction: row;
+display: flex;
+margin-top: 56px;
+justify-content: center;
+
+
+
+
+}
+
+#menu{
+padding-top: 120px;
+background-image: url(./Img/section_our_menu_bg.jpg);
+margin-top: 120px;
+background-repeat: repeat-y;
+
+
+}
+
+
+.footer-logo{
+
+display: flex;
+justify-content: flex-start;
+height: 44px;
+
+
+}
+
+.icon{
+margin-left: 15px;
+    width: 40px;
+    height: 40px;
+}
+.footer{
+width: 100%;
+height: 144px;
+background-color: #0A141E;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+
+
+
+
+
+
+}
+
+.socials{
+display: flex;
+justify-content: flex-end;
+height: 40px;
+width: 40px;
+
+
+}  
+
+.find{
+    margin-top: 8px;
+    margin-bottom: 64px;
+    display: flex;
+    font-family: Raleway;
+    font-size: 24px;
+    justify-content: center;
+    width: 100%;
+}
+
+.find-us {
+    margin-top: 120px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #9F0908;
+    text-align: center;
+}
+
+.logooben{
+
+display: flex;
+justify-content: flex-start;
+}
+
+#logo{
+
+display: flex;
+justify-content: flex;
+}
+.sakura-logo{
+    display: none;
+}
+
+.top {
+    background-image: url(img/1_hero/JPG/hero_bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+@media (max-width:800px){
+
+    .dishes-tonkotsu-ramen{
+      
+        display: flex;
+        margin-top: 56px;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+   
+    .dishes-miso-ramen{
+       
+        text-align: center;
+           padding-top: 64px;
+           margin-left: 0px;
+           margin-right: 0px;
+    }  
+
+    .dishes-shio-ramen{
+     
+        text-align: center;
+           padding-top: 64px;
+           padding-bottom: 120px;
+           margin-left: 0px;
+           margin-right: 0px;
+    }  
+
+    .dishes-img{
+
+        width: 352px;
+        height: 352px;
+    }
+    .table{
+
+        font-size: 24px;
+    }
+}
+@media (max-width: 750px){
+
+    .hide-mobile{
+
+        display: none;
+    }
+    .footer-logo{
+        background: url(./Img/sakura_logo.png);
+        height: 40px;
+        background-position: center;
+        width: 40px;
+        background-size: contain;
+        padding: 0;
+        margin-left: 16px;
+   
+   }
+
+   .dishes-tonkotsu-ramen{
+      
+    display: flex;
+    margin-top: 56px;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.dishes-miso-ramen{
+   
+    text-align: center;
+       padding-top: 64px;
+       margin-left: 0px;
+       margin-right: 0px;
+}  
+
+.dishes-shio-ramen{
+ 
+    text-align: center;
+       padding-top: 64px;
+       padding-bottom: 120px;
+       margin-left: 0px;
+       margin-right: 0px;
+}  
+
+.dishes-img{
+
+    width: 112px;
+    height: 112px;
+}
+
+}
+
+@media (max-width: 700px) {
+
+    .table{
+
+        font-size: 24px;
+    }
+
+    
+    .navphone{
+
+        margin-top: 20px;
+    }
+
+    .dishes-img{
+
+        width: 200px;
+        height: 200px; 
+    }
+
+    .h3{
+
+        font-size: 50px;
+    }
+
+    .hide-mobile{
+        font-size: 20px;
+    }
+
+    .dishes-tonkotsu-ramen{
+      
+        display: flex;
+        margin-top: 56px;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+   
+    .dishes-miso-ramen{
+       
+        text-align: center;
+           padding-top: 64px;
+           margin-left: 0px;
+           margin-right: 0px;
+    }  
+
+    .dishes-shio-ramen{
+     
+        text-align: center;
+           padding-top: 64px;
+           padding-bottom: 120px;
+           margin-left: 0px;
+           margin-right: 0px;
+    }  
+    .hide-mobile {
+        display: none;
+    }
+
+    .icon_logo{
+        width: 40px;
+        height: 40px;
+    }
+    .header h1{
+        font-size: 72px;
+  
+}
+
+.raleway{
+    font-size: 64px;
+}
+
+
+
+
+}
+@media (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+    }
+    .navphone{
+
+        margin-top: 16px;
+    }
+    
+    .icon_logo{
+        width: 40px;
+        height: 40px;
+    }   
+        
+    .navphone{
+        font-size: 16px;
+    }
+    .raleway{
+        text-align: center;
+        font-size: 40px;
+        font-style: bold;
+        margin-top: 72px;
+        margin-bottom: 40px;
+    }
+
+    .pick{
+
+        margin-top: 32px;
+        font-size: 32px;
+    }
+
+    .h3{
+
+font-size: 32px;
+    }
+    .dishes-tonkotsu-ramen{
+        display: flex;
+        flex-direction: column-reverse;
+        display: flex;
+        margin-top: 32px;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+   
+    .dishes-miso-ramen{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+           padding-top: 32px;
+           margin-left: 0px;
+           margin-right: 0px;
+    }  
+
+    .dishes-shio-ramen{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+           padding-top: 32px;
+           padding-bottom: 120px;
+           margin-left: 0px;
+           margin-right: 0px;
+    }  
+
+    .dishes-img{
+
+        width: 112px;
+        height: 112px;
+    }
+    .best{
+       font-size: 16px;
+       font-family: Raleway; 
+    }
+    .h4-container{
+        display: flex;
+        flex-direction: column;
+           padding-top: 64px;
+           padding-bottom: 120px;
+    }
+    .header h1{
+      font-size: 50px;
+
+    }
+.header{
+
+    font-size: 50px;
+}
+   .find-us-h2{
+    flex-direction: column-reverse;
+    font-size: 50px;
+   }
+
+
+  
+.find-us{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .find{
+
+     display: flex;
+     text-align: center;
+        font-size: 16px
+       
+    }
+    .sozials{
+        flex-direction: column;
+    }
+
+    
+    .table{
+
+        font-size: 20px;
+    }
+   
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.sakura-logo{
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-logo{
+
+    display: none;
+}
+.footer{
+    width: 100%;
+    height: 86px;
+    background-color: #0A141E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1440px;
+
+    
+    }
+
+}
+
+.uberschrift{
+    flex-direction: column;
+  
+
+}
+
+
+
+    
