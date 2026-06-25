@@ -36,7 +36,7 @@ Dieses Projekt entstand als Webentwicklungsprojekt mit dem Ziel, eine moderne Re
 
 ### Bestellung
 
-![Order](screenshots/order.png)
+![Order](screenshots/Order.png)
 
 ### Find Us
 
