@@ -12,13 +12,13 @@ Dieses Projekt entstand als Webentwicklungsprojekt mit dem Ziel, eine moderne Re
 - Modernes Layout
 - Interaktive Navigation
 - Optimiert für Desktop, Tablet und Smartphone
-- Sauber strukturierter HTML-, CSS- und JavaScript-Code
+- Sauber strukturierter HTML-, CSS
 
 ## 🛠️ Verwendete Technologien
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+
 
 ## 📷 Screenshots
 
